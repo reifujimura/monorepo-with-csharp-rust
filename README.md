@@ -10,3 +10,10 @@ When you run the "dotnet test" command in the "dotnet" directory, Rust library a
 # In "dotnet" directory
 dotnet test (-c Release)
 ```
+
+## Run Sample App
+
+```sh
+# In "dotnet" directory
+dotnet run -r <your-environment-identifier>
+```

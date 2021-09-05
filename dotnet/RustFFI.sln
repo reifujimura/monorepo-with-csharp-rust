@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RustFFI", "RustFFI\RustFFI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RustFFI.Tests", "RustFFI.Tests\RustFFI.Tests.csproj", "{D9012CB2-5587-4E53-A7EA-E76E41B4B5F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RustFFI.App", "RustFFI.App\RustFFI.App.csproj", "{24A5B01D-B64D-408C-945C-A708896808B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{D9012CB2-5587-4E53-A7EA-E76E41B4B5F8}.Release|x64.Build.0 = Release|Any CPU
 		{D9012CB2-5587-4E53-A7EA-E76E41B4B5F8}.Release|x86.ActiveCfg = Release|Any CPU
 		{D9012CB2-5587-4E53-A7EA-E76E41B4B5F8}.Release|x86.Build.0 = Release|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Debug|x64.Build.0 = Debug|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Release|x64.ActiveCfg = Release|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Release|x64.Build.0 = Release|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{24A5B01D-B64D-408C-945C-A708896808B6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
