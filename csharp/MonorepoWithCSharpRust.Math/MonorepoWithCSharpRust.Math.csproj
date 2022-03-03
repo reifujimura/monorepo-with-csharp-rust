@@ -1,7 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -11,7 +13,7 @@
   <Target Name="CargoBuildDebug" BeforeTargets="PreBuildEvent"  Condition=" '$(Configuration)' == 'Debug' ">
     <Exec Command="cargo build" WorkingDirectory="$(RustRootDirectory)"/>
     <ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
-        <Content Include="$(RustRootDirectory)/target/debug/*rust_ffi.*">
+        <Content Include="$(RustRootDirectory)/target/debug/*monorepo_rust_math.*">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
@@ -19,7 +21,7 @@
   <Target Name="CargoBuildRelease" BeforeTargets="PreBuildEvent" Condition=" '$(Configuration)' == 'Release' ">
     <Exec Command="cargo build --release" WorkingDirectory="$(RustRootDirectory)"/>
     <ItemGroup Condition=" '$(Configuration)' == 'Release' ">
-      <Content Include="$(RustRootDirectory)/target/release/*rust_ffi.*">
+      <Content Include="$(RustRootDirectory)/target/release/*monorepo_rust_math.*">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
     </ItemGroup>

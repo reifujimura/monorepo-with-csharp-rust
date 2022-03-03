@@ -1,14 +1,4 @@
-[package]
-name = "rust-ffi"
-version = "0.1.0"
-authors = ["Rei Fujimura <25904196+rf8409@users.noreply.github.com>"]
-edition = "2018"
-
-[lib]
-name = "rust_ffi"
-path = "src/lib.rs"
-crate-type = ["dylib"]
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace]
+members = [
+    "rust/math",
+]
